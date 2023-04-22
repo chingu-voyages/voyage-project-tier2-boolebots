@@ -39,28 +39,25 @@ to work!
 ## Requirements & Specifications
 
 ### What You Need to Do
-### Requirements
 
-*Structure*
+#### Structure
 
 - [ ] This is a purely frontend application. No backend is required. 
 - [ ] You may use any languages, tools, or libraries you prefer when designing and building this app. 
 - [ ] You may **_NOT_** use AI-base solution generators like GitHub Coilot.
+- [ ] Useful links and resources
+    - [George Boole (Wikipedia)](https://en.wikipedia.org/wiki/George_Boole)
+    - [Boolean Algebra (Wikipedia)](https://en.wikipedia.org/wiki/Boolean_algebra)
+    - [Video Game Physics Tutorial - Part I: An Introduction to Rigid Body Dynamics](https://www.toptal.com/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics)
 
-*Useful links and resources*
-
-- [George Boole (Wikipedia)](https://en.wikipedia.org/wiki/George_Boole)
-- [Boolean Algebra (Wikipedia)](https://en.wikipedia.org/wiki/Boolean_algebra)
-- [Video Game Physics Tutorial - Part I: An Introduction to Rigid Body Dynamics](https://www.toptal.com/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics)
-
-*Styling:*
+#### Styling
 
 - [ ] Surprise us!!!
 - [ ] Add a footer containing a link to your teams GitHub repo
 - [ ] In general, you will find these [UI design principles](https://www.justinmind.com/ui-design/principles) helpful.
 - [ ] Recommend using this resource for [clean CSS](https://www.devbridge.com/articles/implementing-clean-css-bem-method/)
 
-*Functionality*
+#### Functionality
 
 -   User can see the game window with these components
     - Game configuration input panel
@@ -115,7 +112,7 @@ to work!
     -   [ ] User can see the tally of wins incremented for bots winning a collision.
     -   [ ] User can see the tally of losses decremented for bots loosing a collision.
 
-**Extras (Not Required)**
+### Extras (Not Required)
 
 -   [ ] User can see a log panel displaying the details of game milestones.
 Hint: This may be useful to the Developer during development and debugging.
