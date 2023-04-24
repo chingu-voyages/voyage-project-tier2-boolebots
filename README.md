@@ -5,6 +5,7 @@
 * [Overview](#overview)
 * [General Instructions](#general-instructions)
 * [Requirements & Specifications](#requirements-specifications)
+* [Acknowledgements](#acknowledgements)
 * [About Chingu](#about-chingu)
 
 ## Overview
@@ -131,3 +132,8 @@ Leaderboard.
 If you aren’t yet a member of Chingu we invite you to join us. We help our 
 members transform what they’ve learned in courses & tutorials into the 
 practical experience employers need and want.
+
+## Acknowledgements
+
+Thanks to our friend [Florin Pop](https://twitter.com/florinpop1705) who 
+contributed the initial version on his [App Ideas repo](https://github.com/florinpop17/app-ideas). 
