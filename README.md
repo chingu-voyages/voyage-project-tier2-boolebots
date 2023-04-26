@@ -47,7 +47,7 @@ to work!
 
 - [ ] This is a purely frontend application. No backend is required. 
 - [ ] You may use any languages, tools, or libraries you prefer when designing and building this app. 
-- [ ] You may **_NOT_** use AI-base solution generators like GitHub Coilot.
+- [ ] You may **_NOT_** use AI-base solution generators like GitHub Copilot.
 - [ ] Useful links and resources
     - [George Boole (Wikipedia)](https://en.wikipedia.org/wiki/George_Boole)
     - [Boolean Algebra (Wikipedia)](https://en.wikipedia.org/wiki/Boolean_algebra)
@@ -63,7 +63,7 @@ to work!
 #### Functionality
 
 -   User can see the game window with these components
-    - Game configuration input panel
+    - Game configuration panel
     - Leaderboard showing bots ranked by their scores
     - Game controls
     - Arena of 8x8 game tiles where the bots battle
@@ -99,9 +99,8 @@ to work!
     -   [ ] User can see bots bounce off the boundary walls of the arena in a new
     direction
     -   [ ] User can see bots pause for an instant when they collide.
-    -   [ ] User can see a bot disappear after colliding if the result of it's 
-    boolean operation appied to its boolean value and that of the bot is has 
-    collided with result in 0.
+    -   [ ] User can see a bot disappear after colliding with another if the result of it's 
+    boolean operation appied to its boolean value and that of the other bot results in 0.
     -   [ ] User can see a bot that wins a collision resume its path at the same 
     speed and direction.
     -   [ ] User can see both colliding bots resume their paths at the same speed
