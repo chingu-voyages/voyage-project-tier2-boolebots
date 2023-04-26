@@ -15,7 +15,7 @@ understand basic Boolean logic. This game has an arena of 8x8 game tiles in
 which your bots move at random speeds and trajectories. The Bots are assigned
 boolean values of 0 or 1 and boolean operations - AND, OR, NOR, NOT. 
 
-![Boolean operations](./assets/boolean_operations.jpeg)
+![Boolean operations](./assets/boolean_operations.png)
 
 When a bot collides with another bot its boolean operation is applied to both
 it and the other bots' boolean value to determine which one wins or looses, or
