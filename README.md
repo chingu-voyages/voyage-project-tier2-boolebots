@@ -112,7 +112,7 @@ to work!
     -   [ ] User can see the display of wins and losses for each bot on the
     leaderboard
     -   [ ] User can see the tally of wins incremented for bots winning a collision.
-    -   [ ] User can see the tally of losses decremented for bots loosing a collision.
+    -   [ ] User can see the tally of losses decremented for bots losing a collision.
 
 ### Extras (Not Required)
 
