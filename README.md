@@ -77,10 +77,10 @@ to work!
     -   [ ] User can enter a unique name for each bot into an input text box
     -   [ ] User can see an error message if the name entered is the same name
     assigned to another bot.
-    -   [ ] User can select the bots Boolean value (0 or 1) from a dropdown.
-    -   [ ] User can select a bots Boolean operation from a dropdown - AND, OR, XOR,
-    or NOT.
-    -   [ ] User can move the speed slider to set a bots speed
+    -   [ ] User can select the Boolean value (0 or 1) from a dropdown for **_each_** bot.
+    -   [ ] User can select the Boolean operation from a dropdown - AND, OR, XOR,
+    or NOT that will be applied to **_all_** bots.
+    -   [ ] User can move the speed slider to set the speed for all bots. This is the interval at which all bots move to the next adjacent cell in the grid.
     -   [ ] User can select a bots starting direction from the direction dropdown.
     -   [ ] User can see the bot randomly assigned to a tile in the arena once its
     name has been defined.
