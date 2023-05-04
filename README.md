@@ -78,6 +78,7 @@ to work!
     -   [ ] User can see an error message if the name entered is the same name
     assigned to another bot.
     -   [ ] User can select the Boolean value (0 or 1) from a dropdown for **_each_** bot.
+    -   [ ] User can select 2 bots to compete in the arena.
     -   [ ] User can select the Boolean operation from a dropdown - AND, OR, XOR,
     or NOT that will be applied to **_all_** bots.
     -   [ ] User can move the speed slider to set the speed for all bots. This is the interval at which all bots move to the next adjacent cell in the grid.
@@ -87,7 +88,7 @@ to work!
 
 - Game Controls
     -   [ ] User can a button in the game control panel to 'Battle!'
-    -   [ ] User can click the 'Battle!' button to start the bot battle in the arena.
+    -   [ ] User can click the 'Battle!' button to start the bot battle in the arena. The two bots should be randomly placed in cells in the arena, which at least one empty cell between them.
     -   [ ] User can see bots move based on the speed and direction assigned to them.
     -   [ ] User can see the 'Battle!' button text change to 'Stop!' once a battle
     is started.
