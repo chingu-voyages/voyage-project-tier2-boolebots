@@ -101,7 +101,8 @@ to work!
     direction
     -   [ ] User can see bots pause for an instant when they collide.
     -   [ ] User can see a bot disappear after colliding with another if the result of the 
-    boolean operation applied to its boolean value and that of the other bot results in a loss.
+    boolean operation applied to its boolean value and that of the other bot results in a loss. Determining the order of 'bot movement (eg. which moves first) is left up to your
+    algorithm.
 
             | Oper | Bot 1 | Bot 2 | Result | Outcome                |
             |------|-------|-------|--------|------------------------|
