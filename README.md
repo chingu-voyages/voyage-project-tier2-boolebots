@@ -100,13 +100,32 @@ to work!
     -   [ ] User can see bots bounce off the boundary walls of the arena in a new
     direction
     -   [ ] User can see bots pause for an instant when they collide.
-    -   [ ] User can see a bot disappear after colliding with another if the result of it's 
-    boolean operation appied to its boolean value and that of the other bot results in 0.
+    -   [ ] User can see a bot disappear after colliding with another if the result of the 
+    boolean operation applied to its boolean value and that of the other bot results in a loss.
+
+            | Oper | Bot 1 | Bot 2 | Result | Outcome                |
+            |------|-------|-------|--------|------------------------|
+            | AND  |   0   |   0   |   0    | Tie                    |
+            | AND  |   0   |   1   |   0    | Tie                    |
+            | AND  |   1   |   0   |   0    | Tie                    |
+            | AND  |   1   |   1   |   1    | First bot to move wins |
+            | OR   |   0   |   0   |   0    | Tie                    |
+            | OR   |   0   |   1   |   1    | First bot to move wins |
+            | OR   |   1   |   0   |   1    | First bot to move wins |
+            | OR   |   1   |   1   |   1    | First bot to move wins |
+            | XOR  |   0   |   0   |   0    | Tie                    |
+            | XOR  |   0   |   1   |   1    | First bot to move wins |
+            | XOR  |   1   |   0   |   1    | First bot to move wins |
+            | XOR  |   1   |   1   |   0    | Tie                    |
+            | NOR  |   0   |   0   |   1    | First bot to move wins |
+            | NOR  |   0   |   1   |   0    | Tie                    |
+            | NOR  |   1   |   0   |   0    | Tie                    |
+            | NOR  |   1   |   1   |   0    | Tie                    |
+
     -   [ ] User can see a bot that wins a collision resume its path at the same 
     speed and direction.
     -   [ ] User can see both colliding bots resume their paths at the same speed
-    and direction in the event of a tie. In other words, when the collision resulted
-    in the same boolean result (0 or 1) for both.
+    and direction in the event of a tie. 
     -   [ ] User can see gameplay stop when only one bot remains.
 
 - Leaderboard
