@@ -98,7 +98,7 @@ to work!
 
 - Arena
     -   [ ] User can see bots bounce off the boundary walls of the arena in a new
-    direction
+    direction. The new direction may be random.
     -   [ ] User can see bots pause for an instant when they collide.
     -   [ ] User can see a bot disappear after colliding with another if the result of the 
     boolean operation applied to its boolean value and that of the other bot results in a loss. Determining the order of 'bot movement (eg. which moves first) is left up to your
